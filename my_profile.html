@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pablosastregarau - profile</title>
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-color: #161617;
+            --text-color: white;
+            --link-color: rgb(174, 174, 174);
+            --link-hover-color: rgb(100, 100, 100);
+            --muted-text: #808080;
+        }
+
+        body {
+            font-family: "IBM Plex Mono", monospace;
+            font-weight: 400;
+            font-style: normal;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin-top: 10em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h2 {
+            margin-bottom: 1em;
+        }
+
+        #container {
+            width: 50em;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--link-color);
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--link-hover-color);
+        }
+
+        li a {
+            color: white;
+        }
+
+        li span {
+            color: var(--muted-text);
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+
+        li div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                margin-top: 5em;
+            }
+
+            #container {
+                width: 95%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                margin-top: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <a href="https://pablosastregarau.github.io">< previous</a>
+        <div>
+            <h2>profile</h2>
+            <div>
+                <ul>
+                    <li>
+                        <div>
+                            <a>[CGI] CDI / Développeur Java FullStack </a>
+                            <span>En mission chez EDF</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
