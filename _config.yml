@@ -1,0 +1,12 @@
+title: Pablo Sastre-Garau
+markdown: kramdown
+highlighter: none
+plugins:
+  - jekyll-mermaid
+include:
+  - _notes
+  - _medias
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:path/
